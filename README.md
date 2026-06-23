@@ -13,8 +13,17 @@ base de datos).
 
 ## 📦 Entregables
 
-- 🎥 **Video demostrativo:** [PEGAR_AQUI_EL_LINK_DEL_VIDEO]
-  *(Asegurate de que tenga permisos públicos de visualización.)*
+- 🎥 **Video demostrativo (en 4 partes):**
+  1. https://www.loom.com/share/a6209edec40647b281d63b54841017a5
+  2. https://www.loom.com/share/4037226db33a44159a42e75c448acb25
+  3. https://www.loom.com/share/c4136ff46cae462080ae9c390901a939
+  4. https://www.loom.com/share/b0ac0bdb4ed14d7fb3a3fff3e209253f
+
+  > *Nota: pido disculpas por presentar el video en 4 partes. Me quedé sin tiempo
+  > para rehacerlo de una sola vez, y la aplicación con la que lo grabé la primera
+  > vez exigía una membresía paga para descargar y editar los videos. Puedo volver
+  > a hacerlo mejor, pero quería al menos cumplir con la entrega del trabajo y el
+  > video. ¡Muchas gracias!*
 - 📚 **Documentación (PDF):** ver el archivo [`Documentacion_TPI.pdf`](Documentacion_TPI.pdf) en la raíz de este repositorio.
 - 💻 **Código fuente completo:** en la carpeta [`src/`](src/) de este repositorio.
 
