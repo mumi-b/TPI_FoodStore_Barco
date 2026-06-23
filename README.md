@@ -11,6 +11,15 @@ base de datos).
 
 ---
 
+## 📦 Entregables
+
+- 🎥 **Video demostrativo:** [PEGAR_AQUI_EL_LINK_DEL_VIDEO]
+  *(Asegurate de que tenga permisos públicos de visualización.)*
+- 📚 **Documentación (PDF):** ver el archivo [`Documentacion_TPI.pdf`](Documentacion_TPI.pdf) en la raíz de este repositorio.
+- 💻 **Código fuente completo:** en la carpeta [`src/`](src/) de este repositorio.
+
+---
+
 ## Cómo ejecutar el proyecto
 
 ### Opción A — Desde NetBeans (recomendada)
