@@ -2,3 +2,9 @@ build/
 dist/
 nbproject/private/
 .env
+
+# Documentacion y guiones personales (no publicar)
+DOCUMENTACION_TPI_borrador.txt
+Documentacion_TPI.docx
+Guion_Video_TPI_EN_CONSTRUCCION.txt
+Guion_Video_TPI_FINAL.txt
