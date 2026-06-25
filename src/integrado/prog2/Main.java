@@ -40,7 +40,7 @@ public class Main {
         // 4) Menu principal en bucle hasta que el usuario elija Salir.
         int opcion;
         do {
-            System.out.println("\n=== SISTEMA DE PEDIDOS (FOOD STORE) ===");
+            System.out.println("\n SISTEMA DE PEDIDOS (FOOD STORE) ");
             System.out.println("1. Categorias");
             System.out.println("2. Productos");
             System.out.println("3. Usuarios");

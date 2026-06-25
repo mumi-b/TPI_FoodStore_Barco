@@ -4,6 +4,7 @@ import integrado.prog2.entities.Categoria;
 import integrado.prog2.entities.Producto;
 import integrado.prog2.exception.DatoInvalidoException;
 import integrado.prog2.exception.EntidadNoEncontradaException;
+import integrado.prog2.exception.PrecioInvalidoException;
 import integrado.prog2.exception.StockInvalidoException;
 import java.util.ArrayList;
 import java.util.List;
@@ -26,13 +27,14 @@ public class ProductoService {
     // CREATE
     public Producto crear(String nombre, Double precio, String descripcion, int stock,
                           String imagen, boolean disponible, Long categoriaId)
-            throws DatoInvalidoException, StockInvalidoException, EntidadNoEncontradaException {
+            throws DatoInvalidoException, PrecioInvalidoException, StockInvalidoException,
+                   EntidadNoEncontradaException {
 
         if (nombre == null || nombre.isBlank()) {
             throw new DatoInvalidoException("El nombre del producto no puede estar vacio.");
         }
         if (precio == null || precio < 0) {
-            throw new StockInvalidoException("El precio no puede ser negativo.");
+            throw new PrecioInvalidoException("El precio no puede ser negativo.");
         }
         if (stock < 0) {
             throw new StockInvalidoException("El stock no puede ser negativo.");
@@ -82,7 +84,7 @@ public class ProductoService {
     // UPDATE
     public void editar(Long id, String nombre, Double precio, String descripcion,
                        Integer stock, String imagen, Boolean disponible, Long categoriaId)
-            throws EntidadNoEncontradaException, StockInvalidoException {
+            throws EntidadNoEncontradaException, PrecioInvalidoException, StockInvalidoException {
 
         Producto p = buscarPorId(id);
 
@@ -91,7 +93,7 @@ public class ProductoService {
         }
         if (precio != null) {
             if (precio < 0) {
-                throw new StockInvalidoException("El precio no puede ser negativo.");
+                throw new PrecioInvalidoException("El precio no puede ser negativo.");
             }
             p.setPrecio(precio);
         }

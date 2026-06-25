@@ -5,7 +5,7 @@ import integrado.prog2.services.CategoriaService;
 import java.util.List;
 
 /**
- * Submenu CRUD de Categorias (Epica 1).
+ * Submenu CRUD de Categorias .
  * Solo se encarga de la interaccion con el usuario y de mostrar mensajes;
  * la logica vive en CategoriaService.
  *
@@ -22,7 +22,7 @@ public class MenuCategoria {
     public void mostrar() {
         int opcion;
         do {
-            System.out.println("\n--- GESTION DE CATEGORIAS ---");
+            System.out.println("\n GESTION DE CATEGORIAS ");
             System.out.println("1. Listar");
             System.out.println("2. Crear");
             System.out.println("3. Editar");

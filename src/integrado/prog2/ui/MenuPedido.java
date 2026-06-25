@@ -34,7 +34,7 @@ public class MenuPedido {
     public void mostrar() {
         int opcion;
         do {
-            System.out.println("\n--- GESTION DE PEDIDOS ---");
+            System.out.println("\n GESTION DE PEDIDOS ");
             System.out.println("1. Listar");
             System.out.println("2. Crear pedido con detalles");
             System.out.println("3. Actualizar estado / forma de pago");

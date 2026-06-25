@@ -24,7 +24,7 @@ public class MenuProducto {
     public void mostrar() {
         int opcion;
         do {
-            System.out.println("\n--- GESTION DE PRODUCTOS ---");
+            System.out.println("\n GESTION DE PRODUCTOS ");
             System.out.println("1. Listar");
             System.out.println("2. Crear");
             System.out.println("3. Editar");
@@ -124,7 +124,7 @@ public class MenuProducto {
         }
     }
 
-    // --- Helpers para campos opcionales en la edicion ---
+    // Helpers para campos opcionales en la edicion
 
     private Double leerDoubleOpcional(String mensaje) {
         String entrada = ConsolaUtil.leerTexto(mensaje);
