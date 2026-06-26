@@ -7,11 +7,11 @@ completas. Toda la información se almacena **en memoria** usando Colecciones (n
 base de datos).
 
 Estudiante: Eugenia Abril Barco
-Materia:Programación 2 - Tecnicatura Universitaria en Programación a Distancia (UTN)
+Materia: Programación 2 - Tecnicatura Universitaria en Programación a Distancia (UTN)
 
 ---
 
-  Entregables
+## Entregables
 
 -  Video demostrativo (en 5 partes cortas):
  1. Sistema Foodstore en consola con Java https://www.loom.com/share/a6209edec40647b281d63b54841017a5
@@ -20,8 +20,8 @@ Materia:Programación 2 - Tecnicatura Universitaria en Programación a Distancia
   4. Comprobacion de funcionamiento correcto https://www.loom.com/share/b0ac0bdb4ed14d7fb3a3fff3e209253f
   5. EXCEPCIONES: https://www.loom.com/share/77d9137689e14abe8d1225034f32dffe
 
-- Documentación (PDF):** ver el archivo [`Documentacion_TPI.pdf`](Documentacion_TPI.pdf) en la raíz de este repositorio.
-- Código fuente completo:** en la carpeta [`src/`](src/) de este repositorio.
+- Documentación (PDF): ver el archivo [`Documentacion_TPI.pdf`](Documentacion_TPI.pdf) en la raíz de este repositorio.
+- Código fuente completo: en la carpeta [`src/`](src/) de este repositorio.
 
 ---
 
