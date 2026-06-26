@@ -53,9 +53,9 @@ public class MenuUsuario {
     }
 
     private void crear() {
-        String nombre = ConsolaUtil.leerTexto("Nombre: ");
+        String nombre = ConsolaUtil.leerTextoObligatorio("Nombre: ");
         String apellido = ConsolaUtil.leerTexto("Apellido: ");
-        String mail = ConsolaUtil.leerTexto("Mail: ");
+        String mail = ConsolaUtil.leerTextoObligatorio("Mail: ");
         String celular = ConsolaUtil.leerTexto("Celular: ");
         String contrasenia = ConsolaUtil.leerTexto("Contrasenia: ");
         Rol rol = elegirRol();

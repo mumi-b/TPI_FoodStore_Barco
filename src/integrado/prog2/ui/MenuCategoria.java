@@ -54,7 +54,7 @@ public class MenuCategoria {
     }
 
     private void crear() {
-        String nombre = ConsolaUtil.leerTexto("Nombre: ");
+        String nombre = ConsolaUtil.leerTextoObligatorio("Nombre: ");
         String descripcion = ConsolaUtil.leerTexto("Descripcion: ");
         try {
             Categoria nueva = categoriaService.crear(nombre, descripcion);

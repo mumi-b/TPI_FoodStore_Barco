@@ -67,7 +67,7 @@ public class MenuProducto {
             System.out.println(c);
         }
 
-        String nombre = ConsolaUtil.leerTexto("Nombre del producto: ");
+        String nombre = ConsolaUtil.leerTextoObligatorio("Nombre del producto: ");
         String descripcion = ConsolaUtil.leerTexto("Descripcion: ");
         double precio = ConsolaUtil.leerDouble("Precio: ");
         int stock = ConsolaUtil.leerEntero("Stock: ");
